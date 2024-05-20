@@ -25,7 +25,7 @@ Release:        1%{?dist}
 Summary:        Material You color algorithms for Python
 License:        MIT
 URL:            https://github.com/T-Dynamos/materialyoucolor-python
-Source0:        materialyoucolor-python-%{version}.tar.gz
+Source0:        %{url}/archive/v%{version}/materialyoucolor-python-%{version}.tar.gz
 BuildRequires:  python-rpm-macros
 BuildRequires:  fdupes
 BuildRequires:  %{python_module pip}
